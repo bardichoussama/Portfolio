@@ -14,9 +14,7 @@ const Interests = () => {
                 <span className="fas fa-baseball-ball" />
               </div>
               <div className="name">Basketball</div>
-              <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
+            
             </div>
           </div>
           <div className="service-col">
@@ -25,9 +23,7 @@ const Interests = () => {
                 <span className="fas fa-campground" />
               </div>
               <div className="name">Camping</div>
-              <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
+             
             </div>
           </div>
           <div className="service-col">
@@ -36,9 +32,7 @@ const Interests = () => {
                 <span className="fas fa-chess-knight" />
               </div>
               <div className="name">Chess</div>
-              <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
+           
             </div>
           </div>
           <div className="service-col">
@@ -47,9 +41,6 @@ const Interests = () => {
                 <span className="fas fa-headphones" />
               </div>
               <div className="name">Music</div>
-              <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
             </div>
           </div>
         </div>

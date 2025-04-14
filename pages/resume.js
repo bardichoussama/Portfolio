@@ -36,8 +36,7 @@ const ResumeCreative = () => {
       {/* Section Interests */}
       <Interests />
       {/* Section Team */}
-      <Clients />
-      {/* Section Custom Text */}
+
     
     </Layout>
   );

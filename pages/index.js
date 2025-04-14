@@ -22,7 +22,7 @@ const IndexCreative = () => {
               <h1 className="h-title">
                 Hello, {`I’m`} <strong>Oussama Bardich</strong>, <br/>
                 Full stack Developer C#/Angular,
-               PHP/Vuejs , Nodejs/React
+               PHP/Vuejs | React
               </h1>
               <div className="h-subtitles" style={{ opacity: "1" }}>
                 <TypingAnimation extraClassName={"h-subtitle"} />

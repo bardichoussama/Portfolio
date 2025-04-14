@@ -3,69 +3,62 @@ const ResumeSection = () => {
     <div className="section resume" id="section-history">
       <div className="content">
         <div className="cols">
+          {/* Experience Column */}
           <div className="col col-md">
-            {/* title */}
+            {/* Title */}
             <div className="title">
-              <div className="title_inner">Experience</div>
+              <div className="title_inner">Expérience</div>
             </div>
-            {/* resume items */}
+            {/* Resume items */}
             <div className="resume-items">
-              <div className="resume-item content-box active">
-                <div className="date">2013 - Present</div>
-                <div className="name">Art Director - Facebook Inc.</div>
+              <div className="resume-item content-box">
+                <div className="date">17 Juin 2024 - 17 Juillet 2024</div>
+                <div className="name">
+                  Al Maghribia Li Attaemine — Développeur Full Stack | Stage
+                </div>
                 <div className="text">
-                  Collaborate with creative and development teams on the
-                  execution of ideas.
+                  Optimisation d’une application : amélioration de la structure métier,
+                  interface modernisée et ajout de nouvelles fonctionnalités.
                 </div>
               </div>
-              <div className="resume-item content-box">
-                <div className="date">2011 - 2012</div>
-                <div className="name">Front-End Developer - Google Inc.</div>
+              <div className="resume-item content-box ">
+                <div className="date">2021 - 2023</div>
+                <div className="name">Graphiste – Fiverr</div>
                 <div className="text">
-                  Monitored technical aspects of the front-end delivery for
-                  projects.
-                </div>
-              </div>
-              <div className="resume-item content-box">
-                <div className="date">2009 - 2010</div>
-                <div className="name">Senior Developer - ABC Inc.</div>
-                <div className="text">
-                  Optimize your website and apps performance using latest
-                  technology.
+                  Réalisation de créations graphiques pour des clients internationaux : logos, affiches, bannières, etc.
                 </div>
               </div>
             </div>
           </div>
+
+          {/* Education Column */}
           <div className="col col-md">
-            {/* title */}
+            {/* Title */}
             <div className="title">
-              <div className="title_inner">Education</div>
+              <div className="title_inner">Formation</div>
             </div>
-            {/* resume items */}
+            {/* Resume items */}
             <div className="resume-items">
-              <div className="resume-item content-box">
-                <div className="date">2006 - 2008</div>
-                <div className="name">Art University - New York</div>
-                <div className="text">
-                  Bachelors Degree in Computer Science ABC Technical Institute,
-                  Jefferson, Missouri.
+              <div className="resume-item content-box active">
+                <div className="date">2024 - Présent</div>
+                <div className="name">
+                  Développeur Full-Stack (Web et Mobile) – Tanger
                 </div>
+                <div className="text"></div>
               </div>
               <div className="resume-item content-box">
-                <div className="date">2005 - 2006</div>
-                <div className="name">Programming Course - Paris</div>
-                <div className="text">
-                  Coursework - Git, WordPress, Javascript, iOS, Android, CSS,
-                  and JavaScript.
+                <div className="date">2023 - 2024</div>
+                <div className="name">
+                  Développeur Full-Stack (Web) – Tanger
                 </div>
+                <div className="text"></div>
               </div>
               <div className="resume-item content-box">
-                <div className="date">2004 - 2005</div>
-                <div className="name">Web Design Course - London</div>
-                <div className="text">
-                  Converted Photoshop layouts to web pages using HTML, CSS, and
-                  JavaScript.
+                <div className="date">2019</div>
+                <div className="name">
+                  Baccalauréat en Sciences de la Vie et de la Terre – Marrakech
                 </div>
+                <div className="text"></div>
               </div>
             </div>
           </div>
@@ -74,4 +67,5 @@ const ResumeSection = () => {
     </div>
   );
 };
+
 export default ResumeSection;
