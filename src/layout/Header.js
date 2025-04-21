@@ -18,7 +18,7 @@ const Menu = () => (
       <div className="top-menu-nav">
         <div className="menu-topmenu-container">
           <ul className="menu">
-            <li className="menu-item menu-item-has-children">
+            <li className="menu-item">
               <Link href="/">
                 <a>
                   <span className="mask-lnk">Home</span>
@@ -27,7 +27,7 @@ const Menu = () => (
               </Link>
              
             </li>
-            <li className="menu-item menu-item-has-children">
+            <li className="menu-item">
               <Link href="resume">
                 <a>
                   <span className="mask-lnk">Resume</span>
@@ -35,7 +35,7 @@ const Menu = () => (
                 </a>
               </Link>
             </li>
-            <li className="menu-item menu-item-has-children">
+            <li className="menu-item">
               <Link href="/works">
                 <a>
                   <span className="mask-lnk">Works</span>
@@ -44,7 +44,7 @@ const Menu = () => (
               </Link>
             </li>
             
-            <li className="menu-item menu-item-has-children">
+            <li className="menu-item">
               <Link href="/contacts">
                 <a>
                   <span className="mask-lnk">Contact</span>

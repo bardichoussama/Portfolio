@@ -7,7 +7,7 @@ const ResumeSection = () => {
           <div className="col col-md">
             {/* Title */}
             <div className="title">
-              <div className="title_inner">Expérience</div>
+              <div className="title_inner">Expériencs</div>
             </div>
             {/* Resume items */}
             <div className="resume-items">
@@ -35,7 +35,7 @@ const ResumeSection = () => {
           <div className="col col-md">
             {/* Title */}
             <div className="title">
-              <div className="title_inner">Formation</div>
+              <div className="title_inner">Formatiosn</div>
             </div>
             {/* Resume items */}
             <div className="resume-items">
